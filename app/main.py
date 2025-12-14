@@ -19,7 +19,7 @@ def get_weather() -> None:
         return
     temp = data["current"]["temp_c"]
     condition = data["current"]["condition"]["text"]
-    print(f"Paris/France {data} Weather: {temp} {condition}")
+    print(f"Paris/France Weather: {temp} {condition}")
 
 
 if __name__ == "__main__":
