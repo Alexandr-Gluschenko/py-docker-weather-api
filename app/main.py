@@ -5,6 +5,7 @@ import requests
 BASE_URL = "https://api.weatherapi.com/v1/current.json"
 CITY = "Paris"
 
+
 def get_weather() -> None:
     api_key = os.getenv("API_KEY")
 
